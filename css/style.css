@@ -314,14 +314,14 @@ section{
 
 .products .box-container{
     display :grid;
-    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap: 1.5rem;
 }
 
 .products .box-container .box{
     text-align: center;
     border: var(--border);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .products .box-container .box .icons a{
@@ -615,7 +615,7 @@ section{
     }
 
     .home{
-        background-position: left;
+        background-position: right;
         justify-content: center;
     }
 
